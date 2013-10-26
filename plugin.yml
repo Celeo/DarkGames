@@ -1,0 +1,14 @@
+name: DarkGames
+version: 0.1.2.3
+author: Celeo
+website: http://darktidegames.com/
+description: Automated minigames
+depends: [WorldEdit, WorldGuard, Empyrean, WarReport]
+main: com.darktidegames.celeo.darkgames.DarkGames
+commands:
+  ctf:
+    usage: /<command> [parameters(s)]
+  duel:
+    usage: /<command> [parameters(s)]
+  darkgames:
+    usage: /<command>

@@ -1,0 +1,31 @@
+ctf:
+  settings:
+      minPlayersInTeam: 2
+      scoreToWin: 10
+  layouts:
+      warpOut: world,-28.0,76.0,115.0
+      arenas:
+        ctf_arena:
+          id: ctf_arena
+          entrance: world,-184.0,72.0,220.0
+          redBase: world,-142.0,69.0,220.0
+          blueBase: world,-226.0,69.0,269.0
+          redJail: world,-144.0,69.0,266.0
+          blueJail: world,-224.0,69.0,222.0
+          redFlag: world,-143.0,70.0,244.0
+          blueFlag: world,-225.0,70.0,244.0
+duel:
+  settings:
+    minPlayers: 2
+    scoreToWin: 10
+  layouts:
+    warpOut: world,0.0,0.0,0.0
+    arenas:
+      duel_arena:
+        id: duel_arena
+        entrance: world,0.0,0.0,0.0
+        base: world,0.0,0.0,0.0
+monitoring:
+- Jaredf
+- TheGreatRainc
+- chili_dude96
